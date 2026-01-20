@@ -1,0 +1,30 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+	background-color: lightblue;
+	font-family: Arial;
+}
+.game{
+	background-color:white;
+	text-align:center;
+	padding:30px;
+}
+.board{
+	display:grid;
+	border:2px solid black;
+	grid-template-columns: repeat(3, 80px);
+	margin: 20px auto;
+}
+.board button{
+	width:80px;
+	height:80px;
+	font-size:30px;
+	cursor:pointer;
+}
+#messsag{
+	font-size:18px;
+	font-weight:bold;
+}
+	
